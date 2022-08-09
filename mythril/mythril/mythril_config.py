@@ -29,7 +29,7 @@ class MythrilConfig:
         self.eth = None  # type: Optional[EthJsonRpc]
 
     def set_api_infura_id(self, id):
-        self.infura_id = id
+        self.infura_id = 650b783bcd2942179240dcf347f84a5d
 
     @staticmethod
     def init_mythril_dir() -> str:
