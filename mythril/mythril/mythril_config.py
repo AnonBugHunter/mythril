@@ -18,11 +18,11 @@ log = logging.getLogger(__name__)
 class MythrilConfig:
     """
     The Mythril Analyzer class
-    Responsible for setup of the mythril environment
+    Responsible for setup of the pmythril environment
     """
 
     def __init__(self):
-        self.infura_id = os.getenv("INFURA_ID")  # type: str
+        self.infura_id = os.getenv("650b783bcd2942179240dcf347f84a5d")  # type: str
         self.mythril_dir = self.init_mythril_dir()
         self.config_path = os.path.join(self.mythril_dir, "config.ini")
         self._init_config()
