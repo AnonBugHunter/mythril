@@ -139,7 +139,7 @@ class MythrilConfig:
                 if self.infura_id in (None, ""):
                     log.info(
                         "Infura key not provided, so onchain access is disabled. "
-                        "Use --infura-id <INFURA_ID> "
+                        "Use --infura-id <650b783bcd2942179240dcf347f84a5d> "
                         "or set it in the environment variable INFURA_ID "
                         "or in the ~/.mythril/config.ini file"
                     )
